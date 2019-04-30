@@ -1,0 +1,161 @@
+@CHARSET "utf-8";
+	*{
+		margin: 0;
+		overflow: hidden;
+	}
+.menu {
+	display: inline-block;
+	background-color: black;
+	width: 100%;
+}
+
+#heading {
+	float: left;
+	color: white;
+	margin-left: 10px;
+	margin-top: 10px;
+	font-size: 25px;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 10px;
+	float: right;
+	overflow: hidden;
+}
+
+li {
+	float: right;
+}
+
+li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 8px 6px;
+}
+
+li a:hover {
+	background-color: #080BD5;
+}
+
+#top_line{
+	font-size: 27px;
+ 	padding-top: 15px;
+ 	margin-left: 10px;
+ 	margin-bottom: 10px;
+ }
+
+ #delete-message{
+ 	display: none;
+ 	padding: 10px;
+ 	margin-left: 10px;
+ 	background-color: #98FB98;
+ 	color: #2E8B57;
+ 	width: 92%;
+ 	margin-bottom: 7px;
+ }
+ 
+ #add-message{
+ 	display: none;
+ 	padding: 10px;
+ 	margin-left: 10px;
+ 	background-color: #98FB98;
+ 	color: #2E8B57;
+ 	width: 92%;
+ 	margin-bottom: 7px;
+ }
+ 
+ .search-bar{
+ 	margin-left: 10px;
+ 	margin-bottom: 30px;
+ }
+ 
+ #field-search{
+ 	height: 8mm;
+ 	width: 15%;
+ }
+ 
+ #button-search{
+ 	height: 9mm;
+ 	background-color: #0F44F5;
+ 	border: none;
+ 	color: #F3F4F8;
+ 	cursor: pointer;  
+ }
+ 
+ #button-add_Medicine{
+ 	height: 9mm;
+ 	background-color: #0F44F5;
+ 	border: none;
+ 	color: #F3F4F8;  
+ 	float: right;
+ 	margin-right: 80px;
+ 	cursor: pointer;
+ 	text-decoration: none;
+ 	text-align: center;
+ 	padding-top: 3px;
+ }
+ 
+ #error{
+ 	margin-top: -25px;
+ 	display: none;
+ 	margin-left: 10px;
+ 	color: red;
+ }
+ 
+ #medicine_table{
+ 	display: none;
+ }
+ 
+ table{
+ 	width: 50%;
+ 	border: 1px solid black;
+ 	border-collapse: collapse;
+ 	margin-bottom: 180px;
+ 	margin-left: 10px;
+ }
+ 
+ th{
+ 	border-collapse: collapse;
+ 	border: 1px solid #DFE0E3;
+ 	background-color: #98999C;
+ 	color: #F8F9FB;
+ 	padding: 7px;
+ }
+ 
+ td{
+ 	border-collapse: collapse;
+ 	border: 1px solid #DFE0E3;
+ 	text-align: center;
+ 	padding: 10px;
+ }
+ 
+ #action_buttons{
+ 	
+ }
+ 
+ .table_button{
+ 	background-color: #0F44F5;
+ 	border: none; 
+ 	height: 7mm;
+ 	text-align: center;
+ 	color: #F3F4F8;
+ 	cursor: pointer;
+ }
+
+footer{
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	font-size: 15px;
+	padding: 10px;
+	margin-left: -10px;
+	background-color: #777;
+	color: #FFFFFF;
+	text-align: right;
+}
+ 
+ 

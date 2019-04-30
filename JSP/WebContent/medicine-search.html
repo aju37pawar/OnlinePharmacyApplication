@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel= "stylesheet" type= "text/css" href= "medicine_search.css">
+<title>medicine-search</title>
+<script src= "medicine_search.js"></script>
+</head>
+<body>
+	<div class="menu">
+		<h3 id="heading">Best Online Pharmacy</h3>
+		<ul>
+ 		    <li><a href="#logout">Logout</a></li>
+  			<li><a href="#Username">Username</a></li>
+  			<li><a href="#Cart">Cart</a></li>
+  			<li><a class="active" href="#Home">Home</a></li>
+		</ul>
+	</div>
+	
+	
+	<p id="top_line">Medicines</p>
+	<div>
+		<p id= "delete-message">Medicine deleted successfully</p>
+		<p id= "add-message">Medicine added to cart  successfully</p>	
+	</div>
+	<div class= "search-bar">
+		<input type= "text" id= "field-search" name= "search-bar" placeholder= "Search Medicine" value= ""/>
+		<button type= "button" value= "" id= "button-search" name= "button-search" onclick="showMedicines()">Search</button>
+		<a href= "add_medicine.html"  ><button id= "button-add_Medicine">Add Medicine</button></a>
+	</div>
+	<p id= "error">Medicine not found</p>
+	
+	<div id= "medicine_table">
+		<table class= "table" id= "table">
+			<tr id= "row-1">
+				<th>Name</th>
+				<th>Type</th>
+				<th>Unit Value</th>
+				<th>Unit</th>
+				<th>Price(Rs.)</th>
+				<th>In Stock</th>
+				<th>Actions</th>
+			</tr>
+			
+				<tr id= "row-2">
+				<td>Crocin</td>
+				<td>Tablet</td>
+				<td>650</td>
+				<td>g</td>
+				<td>27.00</td>
+				<td>Yes</td>
+				<td id= "action_buttons">
+					<a href= "edit_medicine.html"  ><button type= "button" class= "table_button" id= "edit" value= "">Edit</button></a>
+					<button type= "button" class= "table_button" id= "delete" name= "delete" onclick="showDeleteMessage()" value= "">Delete</button>
+					<button type= "button" class= "table_button" id= "add_cart" name= "add_cart" onclick="showAddMessage()" value= "">Add to Cart</button>
+				</td>
+			</tr>
+			
+			<tr id= "row-3">
+				<td>Gelusil</td>
+				<td>Syrup</td>
+				<td>500</td>
+				<td>ml</td>
+				<td>151.55</td>
+				<td>No</td>
+				<td id= "action_buttons">
+					<a href= "edit_medicine.html"  ><button type= "button" class= "table_button" id= "edit" value= "">Edit</button></a>
+					<button type= "button" class= "table_button" id= "delete" name= "delete" onclick="showDeleteMessage()" value= "">Delete</button>
+					<button type= "button" class= "table_button" id= "add_cart" name= "add_cart" onclick="showAddMessage()" value= "">Add to Cart</button>
+				</td>
+			</tr>
+			
+			<tr id= "row-4">
+				<td>Feris</td>
+				<td>Drops</td>
+				<td>15</td>
+				<td>ml</td>
+				<td>69.87</td>
+				<td>No</td>
+				<td id= "action_buttons">
+					<a href= "edit_medicine.html"  ><button type= "button" class= "table_button" id= "edit" value= "">Edit</button></a>
+					<button type= "button" class= "table_button" id= "delete" name= "delete" onclick="showDeleteMessage()" value= "">Delete</button>
+					<button type= "button" class= "table_button" id= "add_cart" name= "add_cart" onclick="showAddMessage()" value= "">Add to Cart</button>
+				</td>
+			</tr>
+			
+			<tr id= "row-5">
+				<td>Lozee</td>
+				<td>Oinment</td>
+				<td>15</td>
+				<td>g</td>
+				<td>64.00</td>
+				<td>Yes</td>
+				<td id= "action_buttons">
+					<a href= "edit_medicine.html"  ><button type= "button" class= "table_button" id= "edit" value= "">Edit</button></a>
+					<!-- <button type= "button" class= "table_button" id= "edit" name= "edit" value= "">Edit</button> -->
+					<button type= "button" class= "table_button" id= "delete" name= "delete" onclick="showDeleteMessage()" value= "">Delete</button>
+					<button type= "button" class= "table_button" id= "add_cart" name= "add_cart" onclick="showAddMessage()" value= "">Add to Cart</button>
+				</td>
+			</tr>
+		</table>
+	</div>
+	
+	<footer>
+			Copyright © 2019 Best Online Pharmacy
+	</footer>
+	
+</body>
+</html>

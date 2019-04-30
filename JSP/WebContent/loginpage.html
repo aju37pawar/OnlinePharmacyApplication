@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title>Login</title>
+<link rel= "stylesheet" type= "text/css" href= "loginpage.css">
+<script src= "login_page.js"></script>
+</head>
+<body>
+	<header>
+		Best Online Pharmacy
+	</header>
+	<p class="login">Login</p>
+	<form action= "loginpage.jsp" method= "post" name= "login-form" onsubmit="return validateForm()">
+			<label for= "field-username">Username</label>
+			<input type= "text" id= "field-username" name= "username" value= ""/>
+			<label for= "field-password">Password</label>
+			<input type= "password" id= "field-password" name= "password" value= ""/>
+			<button type= "submit" value= "submit" id= "field-login" name= "field-login" >Login</button>
+	</form>
+	<footer>
+		Copyright © 2019 Best Online Pharmacy
+	</footer>
+</body>
+</html>

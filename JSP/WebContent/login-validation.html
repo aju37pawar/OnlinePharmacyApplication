@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title>login-validation</title>
+<link rel= "stylesheet" type= "text/css" href= "login-validation.css">
+<script src= "login_page.js"></script>
+</head>
+<body>
+	<div class= "container">
+		<header>
+			Best Online Pharmacy
+		</header>
+		
+		<p class="login">Login</p>
+		<div class= "error-message">
+			Invalid Username or Password
+		</div>
+			
+		<div class= "error-message">
+			System Error. Please retry or contact admin.
+		</div>	
+		<form name= "login-form" action= "loginpage.jsp" method= "post" onsubmit="return validateForm()">
+				<label for= "field-username">Username</label>
+				<input type= "text" id= "field-username" name= "username" value= ""/>
+				<p class= "error">Username is required</p>
+				<label for= "field-password">Password</label>
+				<input type= "password" id= "field-password" name= "password" value= ""/>
+				<p class= "error">Password is required</p>
+				<button type= "submit" value= "submit" id= "field-login" name= "field-login">Login</button>
+		</form>
+		
+		<footer>
+			Copyright © 2019 Best Online Pharmacy
+		</footer>
+	</div>
+</body>
+</html>

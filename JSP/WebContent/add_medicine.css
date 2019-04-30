@@ -1,0 +1,254 @@
+@CHARSET "utf-8";
+
+*{
+		margin: 0;
+		overflow: hidden;
+	}
+.menu {
+	display: inline-block;
+	background-color: black;
+	width: 100%;
+}
+
+#heading {
+	float: left;
+	color: white;
+	margin-left: 10px;
+	margin-top: 10px;
+	font-size: 25px;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 10px;
+	float: right;
+	overflow: hidden;
+}
+
+li {
+	float: right;
+}
+
+li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 8px 6px;
+}
+
+li a:hover {
+	background-color: #080BD5;
+}
+
+#top_line{
+	font-size: 27px;
+ 	padding-top: 15px;
+ 	margin-top: 10px;
+ 	margin-left: 10px;
+ 	margin-bottom: 20px;
+ }
+ 
+#label-name{
+ 	color: 	#A9A9A9;
+ 	font-size: 18px;
+ 	margin-left: 10px;
+ }
+ 
+#field-name{
+ 	margin-left: 10px;
+ 	width: 40%;
+ 	height: 7mm;
+ }
+ 
+#label-type{
+ 	color: 	#A9A9A9;
+ 	font-size: 18px;
+ 	margin-left: 508px;
+ }
+ 
+#field-type{
+ 	width:40%;
+ 	height: 9mm;
+ }
+
+#error-name{
+	display: none;
+	margin-left: 10px;
+	margin-top: -2px;
+	color: #FF0000
+}
+
+#error-name1{
+	display: none;
+	margin-left: 10px;
+	margin-top: -2px;
+	color: #FF0000
+}
+
+#error-type{
+	display: none;
+	margin-left: 565px;
+	color: #FF0000
+}
+
+#error-unitvalue{
+	display: none;
+	margin-left: 10px;
+	color: #FF0000
+}
+
+#error-unitvalue{
+	display: none;
+	margin-left: 10px;
+	color: #FF0000
+}
+
+#error-unitvalue1{
+	display: none;
+	margin-left: 10px;
+	color: #FF0000
+}
+
+#error-unitvalue2{
+	display: none;
+	margin-left: 10px;
+	color: #FF0000
+}
+
+#error-unitvalue3{
+	display: none;
+	margin-left: 10px;
+	color: #FF0000
+}
+
+#error-price{
+	display: none;
+	margin-top: -10px;
+	margin-left: 565px;
+	color: #FF0000
+}
+
+#error-price1{
+	display: none;
+	margin-left: 560px;
+	color: #FF0000
+}
+
+#error-price2{
+	display: none;
+	margin-left: 564px;
+	color: #FF0000
+}
+
+#error-expiry{
+	display: none;
+	margin-left: 10px;
+	color: #FF0000
+}
+
+#row-7{
+	color: #FF0000;
+	margin-left: 10px;
+}
+
+#row-1, #row-4, #row-6, #row-7, #row-8{
+ 	margin-bottom: 5px;
+ }
+ 
+#row-2, #row-3, #row-5{
+ 	margin-bottom: 15px;
+ }
+ 
+#label-unitvalue{
+ 	color: 	#A9A9A9;
+ 	font-size: 18px;
+ 	margin-left: 10px;
+ }
+ 
+#field-unitvalue{
+ 	margin-left: 10px;
+ 	width: 40%;
+ 	height: 7mm;
+ }
+ 
+#label-price{
+ 	color: 	#A9A9A9;
+ 	font-size: 18px;
+ 	margin-left: 473px;
+ }
+ 
+#field-price{
+ 	width: 40%;
+ 	height: 7mm;
+ }
+ 
+#mg{
+ 	margin-left: 28px;
+ }
+ 
+#gm{
+ 	margin-left: 38px;
+ }
+ 
+#ml{
+ 	margin-left: 48px;
+ }
+ 
+#l{
+ 	margin-left: 58px;
+ }
+ 
+#label-expiry{
+ 	color: 	#A9A9A9;
+ 	font-size: 18px;
+ 	margin-left: 10px;
+ }
+ 
+#field-expiry{
+	margin-left: 10px;
+	margin-top:5px;
+ 	width: 40%;
+ 	height: 7mm;
+ }
+ 
+#label-instock{
+ 	color: 	#A9A9A9;
+ 	font-size: 18px;
+ 	margin-left: 504px;
+ }
+ 
+#field-instock{
+ 	margin-left: 10px;
+ }
+ 
+#submit{
+ 	font-size: 17px;
+ 	margin-left: 10px;
+ 	margin-top:15px;
+ 	padding: 12px;
+ 	background-color: #0000FF;
+ 	border: none;
+ 	color: #FFFFFF;
+ }
+ 
+#cancel{
+ 	font-size: 17px;
+ 	padding: 12px;
+ 	background-color: #A9A9A9;
+ 	border: none;
+ 	color: #FFFFFF;
+ }
+ 
+footer{
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	font-size: 15px;
+	padding: 10px;
+	margin-left: -10px;
+	background-color: #777;
+	color: #FFFFFF;
+	text-align: right;
+}

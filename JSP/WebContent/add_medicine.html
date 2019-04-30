@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang= "en">
+<head>
+<meta charset="ISO-8859-1">
+<title>Add Medicine</title>
+<link rel= "stylesheet" type= "text/css" href= "add_medicine.css">
+<script src= "add_medicine.js"></script>
+</head>
+<body>
+	<div class="menu">
+		<h3 id="heading">Best Online Pharmacy</h3>
+		<ul>
+ 		    <li><a href="#logout">Logout</a></li>
+  			<li><a href="#Username">Username</a></li>
+  			<li><a href="#Cart">Cart</a></li>
+  			<li><a class="active" href="#Home">Home</a></li>
+		</ul>
+	</div>
+	<p id="top_line">Add Medicine</p>
+	
+	<form class= "add-bar" action= "add_medicine.jsp" method= "post">
+		<div id= "row-1">
+			<label for= "field-name" id= "label-name">Name</label>
+			<label for= "field-type" id= "label-type">Type</label>
+		</div>
+		
+		<div id= "row-2">
+			<input type= "text" id= "field-name" name= "add-name" value= ""/>
+			<select id= "field-type" name= "type">
+				<option value= "" disabled selected>[Select Type]</option>
+				<option value= "option-1">Option-1</option>
+				<option value= "option-3">Option-2</option>
+				<option value= "option-3">Option-3</option>
+			</select>
+		</div>
+		
+		<div id= "row-3">
+			<p id= "error-name">Medicine name is required</p>
+			<p id= "error-name1">Medicine name cannot exceed 50 characters</p>
+			<p id="error-type">Medicine type is required</p>
+		</div>
+		
+		<div id= "row-4">	
+			<label for= "field-unitvalue" id= "label-unitvalue">Unit Value</label>
+			<label for= "field-price" id= "label-price">Price</label>
+		</div>
+		
+		<div id= "row-5">
+			<input type= "text" id= "field-unitvalue" name= "add_unit" value= ""/>
+			<input type= "text" id= "field-price" name= "add_price" value= ""/>
+		</div>
+		
+		<div id= "row-6">
+			<input type= "radio" name="radio_tag" id= "mg" value= "mg"/>
+			<label for= "mg" id= "label-mg">mg</label>
+			<input type= "radio" name="radio_tag" id= "gm" value= "gm"/>
+			<label for= "gm" id= "label-gm">gm</label>
+			<input type= "radio" name="radio_tag" id= "ml" value= "ml"/>
+			<label for= "ml" id= "label-ml">ml</label>
+			<input type= "radio" name="radio_tag" id= "l" value= "l"/>
+			<label for= "l" id= "label-1">l</label>
+			<p id= "error-price">Price is required</p>
+			<p id= "error-price1">Price should be a number</p>
+			<p id= "error-price2">Decimal value cannot be > 2 digits</p>
+		</div>
+		
+		<div id= "row-7">
+			<p id= "error-unitvalue">Unit value is required</p>
+			<p id= "error-unitvalue1">Atleast one unit should be selected</p>
+			<p id= "error-unitvalue2">Unit value should be a number</p>
+			<p id= "error-unitvalue3">Unit value should not be > 99999 </p>
+		</div>
+		
+		<div id= "row-8">
+			<label for= "field-expiry" id= "label-expiry">Expiry</label>
+			<label for= "field-instock" id= "label-instock">In Stock</label>
+		</div>
+		
+		<div id= "row-9">
+			<input type= "text" id= "field-expiry" name= "add_expiry" value= ""/>
+			<input type= "checkbox" id= "field-instock" name= "add_instock" value= "yes"/>
+		</div>
+		
+		<div id= "row-10">
+			<p id= "error-expiry">Expiry Date is required</p>
+		</div>
+		
+		<div id= "row-11">
+			<input type="submit" id= "submit" value= "Save" onclick="validateForm()">
+			<button type="button" id= "cancel" value= "cancel">Cancel</button>
+		</div>	
+	</form>
+	
+	<footer>
+		Copyright © 2019 Best Online Pharmacy
+	</footer>
+	
+</body>
+</html>
