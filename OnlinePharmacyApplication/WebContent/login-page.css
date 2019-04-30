@@ -1,0 +1,71 @@
+#user_error, #pass_error{
+	color: red;
+	display: none;
+}
+
+body{
+	margin:0px auto;
+}
+header {
+	  background: #314d68;
+    margin: 0px auto;
+    padding: 13px 37px;
+    font-size: 40px;
+    color: white;
+    font-family: sans-serif;
+    
+
+}
+
+header + div{
+	padding: 75px 0px 48px 48px;
+	text-align:center;
+}
+
+h3{
+	font-family: sans-serif;
+    font-size: 30px;
+}
+form>label{
+	color:gray;
+	margin-bottom: 20px;
+	font-family:sans-serif;
+}
+
+#field-password,#field-username{
+	margin-bottom: 15px;
+	    font-size: larger;
+	    margin-left:15px;
+}
+
+form>button{
+	    font-size: larger;
+	    border:0px;
+	    color:white;
+	    background:#76D7C4;
+	    padding: 10px 97px 10px 97px;
+    font-size: 20px;
+    margin-left:12px;
+}
+
+form>button:hover{
+	font-size: larger;
+	    border:0px;
+	    color:black;
+	    background:green;
+	    padding: 10px 97px 10px 97px;
+    font-size: 20px;
+    margin-left:12px;
+}
+
+footer{
+	    text-align: right;
+    background: #314d68;
+    padding: 13px;
+    color: white;
+    font-family: sans-serif;
+    position: fixed;
+    bottom: 0px;
+    width: -webkit-fill-available;
+}
+}
